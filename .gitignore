@@ -1,0 +1,70 @@
+# Python-related files
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.pyd
+*.db
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Database files (SQLite or other local databases)
+*.sqlite3
+*.db
+
+# Alembic Migrations
+alembic/versions/
+alembic.ini
+
+# Environment files (e.g., secrets)
+.env
+.env.local
+.env.prod
+*.env
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Mypy and other static analysis tools
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Docker files
+docker-compose.override.yml
+Dockerfile
+.dockerignore
+
+# Testing
+*.log
+*.coverage
+.coverage.*
+nosetests.xml
+test-results/
+
+# Build files (if you're using them)
+build/
+dist/
+*.egg-info/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# JetBrains IDE settings
+.idea/
+
+# MacOS Finder specific
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# FastAPI-related files (not always necessary but helpful)
+*.pdb
+*.log
